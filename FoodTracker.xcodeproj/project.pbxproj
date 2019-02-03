@@ -13,6 +13,7 @@
 		07381819219ACC7D00651E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07381818219ACC7D00651E87 /* Assets.xcassets */; };
 		0738181C219ACC7D00651E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0738181A219ACC7D00651E87 /* LaunchScreen.storyboard */; };
 		07381827219ACC7D00651E87 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07381826219ACC7D00651E87 /* FoodTrackerTests.swift */; };
+		07937D8E220781BF00502002 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 07937D8D220781BF00502002 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		07381822219ACC7D00651E87 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07381826219ACC7D00651E87 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		07381828219ACC7D00651E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07937D8D220781BF00502002 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		07381805219ACC7B00651E87 = {
 			isa = PBXGroup;
 			children = (
+				07937D8D220781BF00502002 /* .gitignore */,
 				07381810219ACC7B00651E87 /* FoodTracker */,
 				07381825219ACC7D00651E87 /* FoodTrackerTests */,
 				0738180F219ACC7B00651E87 /* Products */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07937D8E220781BF00502002 /* .gitignore in Resources */,
 				0738181C219ACC7D00651E87 /* LaunchScreen.storyboard in Resources */,
 				07381819219ACC7D00651E87 /* Assets.xcassets in Resources */,
 				07381817219ACC7C00651E87 /* Main.storyboard in Resources */,
