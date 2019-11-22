@@ -17,7 +17,7 @@ class RatingControl: UIStackView {
     }
     
     //MARK: Button Action
-    func ratingButtonTapped(button: UIButton) {
+    @objc func ratingButtonTapped(button: UIButton) {
         print("Button pressed 👍")
     }
     
@@ -34,10 +34,13 @@ class RatingControl: UIStackView {
         button.backgroundColor = UIColor.red
         
         // Add constraints
-       // button.translatesAutoresizingMaskIntoConstraints = true
-       // button.heightAnchor.constraint(equalToConstant: 44.0).isActive = false
-       // button.widthAnchor.constraint(equalToConstant: 44.0).isActive = false
+        button.translatesAutoresizingMaskIntoConstraints = true
+        button.heightAnchor.constraint(equalToConstant: 44.0).isActive = false
+        button.widthAnchor.constraint(equalToConstant: 44.0).isActive = false
            
+         // Setup the button action
+          button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
+        
         // Add the button to the stack
         addArrangedSubview(button)
     }
