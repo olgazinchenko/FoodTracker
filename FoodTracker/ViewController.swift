@@ -68,7 +68,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         // Set photoImageView to display the selected image.
         photoImageView.image = selectedImage
         
-        // Dismiss the picker.
+        // Dismiss the picker
         dismiss(animated: true, completion: nil)
     }
 }
