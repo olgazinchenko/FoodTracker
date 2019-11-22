@@ -16,6 +16,11 @@ class RatingControl: UIStackView {
         setupButtons()
     }
     
+    //MARK: Button Action
+    func ratingButtonTapped(button: UIButton) {
+        print("Button pressed 👍")
+    }
+    
     required init(coder: NSCoder) {
         super.init(coder: coder)
         setupButtons()
@@ -29,11 +34,12 @@ class RatingControl: UIStackView {
         button.backgroundColor = UIColor.red
         
         // Add constraints
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
-        button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
+       // button.translatesAutoresizingMaskIntoConstraints = true
+       // button.heightAnchor.constraint(equalToConstant: 44.0).isActive = false
+       // button.widthAnchor.constraint(equalToConstant: 44.0).isActive = false
            
         // Add the button to the stack
         addArrangedSubview(button)
     }
+
 }

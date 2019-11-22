@@ -55,8 +55,8 @@
                                     <constraint firstAttribute="trailing" secondItem="QGV-q9-qpz" secondAttribute="trailing" id="Jko-AF-fT3"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z0s-YI-sKg" customClass="RatingControl" customModule="FoodTracker">
-                                <rect key="frame" x="16" y="424" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" id="z0s-YI-sKg" customClass="RatingControl" customModule="FoodTracker">
+                                <rect key="frame" x="60" y="424" width="200" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
