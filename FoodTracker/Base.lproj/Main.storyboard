@@ -34,12 +34,17 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="-4" translatesAutoresizingMaskIntoConstraints="NO" id="d62-s5-UgE" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                            <rect key="frame" x="98" y="40" width="206" height="39"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="d62-s5-UgE" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                            <rect key="frame" x="98" y="40" width="206" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="mealLabel" destination="nNg-Hx-2bJ" id="BSU-TY-RZY"/>
+                                    <outlet property="photoImageView" destination="EdV-zB-UrB" id="ap2-Pm-pU2"/>
+                                    <outlet property="ratingControl" destination="d62-s5-UgE" id="40s-tc-CzK"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
